@@ -11,15 +11,21 @@ h3{
   font-size: 20px;
 }
 
+pre{
+  width:85%;
+  font: 15px Courier New;
+  border:1px solid #cccccc;
+  border-radius: 5px;
+  padding:15px 0 0 ;
+}
+
 #buttons{
   margin:5%;
 }
 
-#scenarios,#sizes{
+.scenarios,.sizes{
   margin:3%;
 }
-
-
 
 .btn{
   font-size: 15px;
