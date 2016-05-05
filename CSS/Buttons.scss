@@ -1,0 +1,88 @@
+html {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2{
+  font-size: 26px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+#buttons{
+  margin:5%;
+}
+
+#scenarios,#sizes{
+  margin:3%;
+}
+
+
+
+.btn{
+  font-size: 15px;
+  min-width: 60px;
+  border:1px solid #ccc;
+  background-color: #FFF;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: gainsboro;
+}
+
+.btn-primary{
+  color: #FFF;
+  background-color: #337ab7;
+}
+.btn-primary:hover{
+  background-color: #286090;
+}
+
+.btn-success{
+  color: #FFF;
+  background-color: #5cb85c;
+}
+.btn-success:hover{
+  background-color: #449d44;
+}
+
+.btn-info{
+  color: #FFF;
+  background-color: #5bc0de;
+}
+.btn-info:hover{
+  background-color: #46b8da;
+}
+
+.btn-warning{
+  color: #FFF;
+  background-color: #f0ad4e;
+}
+.btn-warning:hover{
+  background-color: #ec971f;
+}
+
+.btn-danger{
+  color: #FFF;
+  background-color: #d9534f;
+}
+.btn-danger:hover{
+  background-color: #c9302c;
+}
+
+.btn-larger{
+  font-size: 18px;
+  min-width: 60px;
+  padding: 10px 16px;
+}
+
+.btn-smaller{
+  font-size: 12px;
+  min-width: 60px;
+  padding: 5px 10px;
+}
