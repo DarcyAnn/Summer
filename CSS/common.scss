@@ -1,6 +1,22 @@
+$primary: #337ab7;
+$darkPrimary: #286090;
+$success: #5cb85c;
+$darkSuccess: #449d44;
+$info: #5bc0de;
+$darkInfo: #46b8da;
+$warning: #f0ad4e;
+$darkWarning: #ec971f;
+$danger: #d9534f;
+$darkDanger: #c9302c;
+$border-color: #ccc;
+
 html {
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+  font-size: 30px;
 }
 
 h2{
@@ -11,6 +27,18 @@ h3{
   font-size: 20px;
 }
 
+h4{
+  font-size: 18px;
+}
+
+h5{
+  font-size: 16px;
+}
+
+h6{
+  font-size: 15px;
+}
+
 pre{
   width: 90%;
   font: 15px Courier New;
@@ -18,4 +46,8 @@ pre{
   border-radius: 5px;
   padding: 15px 0 0 ;
   overflow: auto;
+}
+
+#forms, #buttons, #girds {
+  margin: 5%;
 }

@@ -1,16 +1,50 @@
-#buttons {
+html {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 26px; }
+
+h3 {
+  font-size: 20px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 16px; }
+
+h6 {
+  font-size: 15px; }
+
+pre {
+  width: 90%;
+  font: 15px Courier New;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px 0 0;
+  overflow: auto; }
+
+#forms, #buttons, #girds {
   margin: 5%; }
 
-.scenarios, .sizes {
+.btn-scenarios, .btn-sizes {
   margin: 3%; }
 
 .btn {
   font-size: 15px;
+  text-align: center;
+  vertical-align: middle;
   min-width: 60px;
   border: 1px solid #ccc;
   background-color: #fff;
   padding: 8px 12px;
   border-radius: 4px;
+  box-shadow: 1px 1px 1px #ccc;
+  outline: none;
   cursor: pointer; }
   .btn:hover {
     background-color: gainsboro; }
@@ -47,12 +81,12 @@
 
 .btn-larger {
   font-size: 18px;
-  min-width: 60px;
+  min-width: 70px;
   padding: 10px 16px; }
 
 .btn-smaller {
   font-size: 12px;
-  min-width: 60px;
+  min-width: 50px;
   padding: 5px 10px; }
 
 /*# sourceMappingURL=Buttons.css.map */
