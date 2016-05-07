@@ -2,9 +2,44 @@
   margin: 5%;
 }
 
-.basicForm{
+.default{
+  margin: 0 40px;
+  div{
+    margin: 10px 0;
+  }
+  label{
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+.defaultForm{
   font-size: 15px;
   height: 30px;
   border-radius: 5px;
   padding: 2px 10px;
+}
+
+.basic{
+  margin:0 40px;
+}
+
+.aligned{
+  margin:0 40px;
+  label{
+    display: inline-block;
+    text-align: right;
+    width: 10em;
+  }
+  input{
+    margin: 5px 0 15px;
+  }
+  button{
+    margin-left: 9.5em;
+  }
+}
+
+.alignedForm{
+
 }

@@ -11,25 +11,123 @@
 <div id="forms">
     <h2>Forms</h2>
     <hr/>
-    <h3>Basic</h3>
-        <p>To quickly create a basic form.</p>
-        <div class="basic">
-            <form>
-                <input type="email" placeholder="Email" id="email1" class="basicForm"/>
-                <input type="password" placeholder="Password" id="password1" class="basicForm"/>
-                <label for="remember1"></label>
-                <input type="checkbox"  id="remember1"/>Remember me
+    <h3>Default Form</h3>
+    <p>To quickly create a default form.</p>
+    <div class="default">
+        <form>
+            <div>
+                <label for="email1">Email</label>
+                <input type="email" placeholder="Email" id="email1" class="defaultForm"/>
+            </div>
+            <div>
+                <label for="password1">Password</label>
+                <input type="password" placeholder="Password" id="password1" class="defaultForm"/>
+            </div>
+            <div>
+                <label for="file1">File</label>
+                <input type="file" id="file1"/>
+            </div>
+            <div>
+                <label for="remember1">
+                    <input type="checkbox"  id="remember1"/>Remember me
+                </label>
+            </div>
+            <div>
                 <button class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-        <div>
+            </div>
+        </form>
+    </div>
+    <div class="default">
         <pre>
    <form>
-       <input type="email" placeholder="Email" id="email1" class="basicForm"/>
-       <input type="password" placeholder="Password" id="password1" class="basicForm"/>
-       <label for="remember1"></label>
-       <input type="checkbox"  id="remember1"/>Remember me
+       <div>
+           <label for="email1">Email</label>
+           <input type="email" placeholder="Email" id="email1" class="defaultForm"/>
+       </div>
+       <div>
+           <label for="password1">Password</label>
+           <input type="password" placeholder="Password" id="password1" class="defaultForm"/>
+       </div>
+       <div>
+           <label for="file1">File</label>
+           <input type="file" id="file1"/>
+       </div>
+       <div>
+           <label for="remember1">
+               <input type="checkbox"  id="remember1"/>Remember me
+           </label>
+       </div>
+       <div>
+           <button class="btn btn-primary">Submit</button>
+       </div>
+   </form>
+        </pre>
+    </div>
+
+    <h3>Basic Form</h3>
+    <p>To quickly create a basic form.</p>
+    <div class="basic">
+        <form>
+            <input type="email" placeholder="Email" id="email2" class="defaultForm basicForm"/>
+            <input type="password" placeholder="Password" id="password2" class="defaultForm basicForm"/>
+            <label for="remember2"></label>
+            <input type="checkbox"  id="remember2"/>Remember me
+            <button class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div class="basic">
+        <pre>
+   <form>
+       <input type="email" placeholder="Email" id="email2" class="defaultForm basicForm"/>
+       <input type="password" placeholder="Password" id="password2" class="defaultForm basicForm"/>
+       <label for="remember2"></label>
+       <input type="checkbox"  id="remember2"/>Remember me
        <button class="btn btn-primary">Submit</button>
+   </form>
+        </pre>
+    </div>
+
+    <h3>Aligned Form</h3>
+    <p>To quickly create a aligned form.</p>
+    <div class="aligned">
+        <form>
+            <div>
+                <label for="email3">Email:</label>
+                <input type="email" placeholder="Email" id="email3" class="defaultForm alignedForm"/>
+            </div>
+            <div>
+                <label for="password3">Password:</label>
+                <input type="password" placeholder="Password" id="password3" class="defaultForm alignedForm"/>
+            </div>
+            <div>
+                <label for="remember3"></label>
+                <input type="checkbox"  id="remember3"/>Remember me
+
+            </div>
+            <div>
+                <button class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="aligned">
+        <pre>
+   <form>
+       <div>
+           <label for="email3">Email:</label>
+           <input type="email" placeholder="Email" id="email3" class="defaultForm alignedForm"/>
+       </div>
+       <div>
+           <label for="password3">Password:</label>
+           <input type="password" placeholder="Password" id="password3" class="defaultForm alignedForm"/>
+       </div>
+       <div>
+           <label for="remember3"></label>
+           <input type="checkbox"  id="remember3"/>Remember me
+
+       </div>
+       <div>
+           <button class="btn btn-primary">Submit</button>
+       </div>
    </form>
         </pre>
     </div>
