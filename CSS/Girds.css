@@ -1,0 +1,74 @@
+html {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h1 {
+  font-size: 30px; }
+
+h2 {
+  font-size: 26px; }
+
+h3 {
+  font-size: 20px; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 16px; }
+
+h6 {
+  font-size: 15px; }
+
+pre {
+  width: 90%;
+  font: 15px Courier New;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px 0 0;
+  overflow: auto; }
+
+#forms, #buttons, #girds {
+  margin: 5%; }
+
+.columns-12 {
+  margin: 3%; }
+
+.rows {
+  width: 90%;
+  overflow: hidden; }
+  .rows .col-1, .rows .col-2, .rows .col-3, .rows .col-4, .rows .col-5, .rows .col-6, .rows .col-7, .rows .col-8, .rows .col-9, .rows .col-10, .rows .col-11, .rows .col-12 {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle; }
+  .rows .col-1 {
+    width: 8.3333%; }
+  .rows .col-2 {
+    width: 16.6666%; }
+  .rows .col-3 {
+    width: 25%; }
+  .rows .col-4 {
+    width: 33.3333%; }
+  .rows .col-5 {
+    width: 41.6666%; }
+  .rows .col-6 {
+    width: 50%; }
+  .rows .col-7 {
+    width: 58.3333%; }
+  .rows .col-8 {
+    width: 66.6666%; }
+  .rows .col-9 {
+    width: 75%; }
+  .rows .col-10 {
+    width: 83.333%; }
+  .rows .col-11 {
+    width: 91.6666%; }
+  .rows .col-12 {
+    width: 100%; }
+  .rows pre {
+    margin-top: 10px; }
+
+/*# sourceMappingURL=Girds.css.map */

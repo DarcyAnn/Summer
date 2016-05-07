@@ -32,7 +32,7 @@ pre {
   margin: 5%; }
 
 .form-default {
-  margin: 0 40px; }
+  margin: 3%; }
   .form-default div {
     margin: 10px 0; }
   .form-default label {
@@ -50,10 +50,10 @@ pre {
   border-left-style: outset; }
 
 .form-basic {
-  margin: 0 40px; }
+  margin: 3%; }
 
 .form-aligned {
-  margin: 0 40px; }
+  margin: 3%; }
   .form-aligned label {
     display: inline-block;
     text-align: right;
