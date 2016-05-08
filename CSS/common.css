@@ -28,9 +28,4 @@ pre {
   padding: 15px 0 0;
   overflow: auto; }
 
-#forms, #buttons, #girds, #tables {
-  margin: 5%; }
-  #forms > div, #buttons > div, #girds > div, #tables > div {
-    margin: 3%; }
-
 /*# sourceMappingURL=common.css.map */

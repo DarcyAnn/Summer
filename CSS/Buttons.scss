@@ -1,6 +1,6 @@
 @import "common.scss";
 
-.btn{
+.btn {
   font-size: 15px;
   text-align: center;
   vertical-align: middle;
@@ -12,58 +12,58 @@
   box-shadow: 1px 1px 1px $borderColor;
   outline: none;
   cursor: pointer;
-  &:hover{
+  &:hover {
     background-color: gainsboro;
   }
 }
 
-.btn-primary{
+.btn-primary {
   color: #fff;
   background-color: $primary;
-  &:hover{
+  &:hover {
     background-color: $darkPrimary;
   }
 }
 
-.btn-success{
+.btn-success {
   color: #fff;
   background-color: $success;
-  &:hover{
+  &:hover {
     background-color: $darkSuccess;
   }
 }
 
-.btn-info{
+.btn-info {
   color: #fff;
   background-color: $info;
-  &:hover{
+  &:hover {
     background-color: $darkInfo;
   }
 }
 
-.btn-warning{
+.btn-warning {
   color: #fff;
   background-color: $warning;
-  &:hover{
+  &:hover {
     background-color: $darkWarning;
   }
 }
 
-.btn-danger{
+.btn-danger {
   color: #fff;
   background-color: $danger;
-  &:hover{
+  &:hover {
     background-color: $darkDanger;
   }
 }
 
-.btn-larger{
+.btn-larger {
   font-size: 18px;
   min-width: 70px;
   padding: 10px 16px;
 }
 
-.btn-smaller{
+.btn-smaller {
   font-size: 12px;
   min-width: 50px;
   padding: 5px 10px;

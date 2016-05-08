@@ -28,15 +28,10 @@ pre {
   padding: 15px 0 0;
   overflow: auto; }
 
-#forms, #buttons, #girds, #tables {
-  margin: 5%; }
-  #forms > div, #buttons > div, #girds > div, #tables > div {
-    margin: 3%; }
-
 .rows {
   width: 90%;
   overflow: hidden; }
-  .rows .col-1, .rows .col-2, .rows .col-3, .rows .col-4, .rows .col-5, .rows .col-6, .rows .col-7, .rows .col-8, .rows .col-9, .rows .col-10, .rows .col-11, .rows .col-12 {
+  .rows [class^=col-] {
     border: 1px solid #ccc;
     box-sizing: border-box;
     float: left;

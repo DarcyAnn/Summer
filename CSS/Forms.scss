@@ -1,17 +1,14 @@
 @import "common.scss";
 
-.form-default{
-  div{
-    margin: 10px 0;
-  }
-  label{
+.form-default {
+  label {
     font-weight: bold;
     display: block;
     margin: 10px 0;
   }
 }
 
-.default-form{
+.default-form {
   font-size: 15px;
   height: 30px;
   border-radius: 5px;
@@ -21,18 +18,16 @@
   border-left-style: outset;
 }
 
-
-
-.form-aligned{
-  label{
+.form-aligned {
+  label {
     display: inline-block;
     text-align: right;
     width: 10em;
   }
-  input{
+  input {
     margin: 5px 0 15px;
   }
-  button{
+  button {
     margin-left: 9.5em;
   }
 }

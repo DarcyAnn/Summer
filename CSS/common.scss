@@ -16,42 +16,37 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1{
+h1 {
   font-size: 30px;
 }
 
-h2{
+h2 {
   font-size: 26px;
 }
 
-h3{
+h3 {
   font-size: 20px;
 }
 
-h4{
+h4 {
   font-size: 18px;
 }
 
-h5{
+h5 {
   font-size: 16px;
 }
 
-h6{
+h6 {
   font-size: 15px;
 }
 
-pre{
+pre {
   width: 90%;
   font: 15px Courier New;
   border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 15px 0 0 ;
+  padding: 15px 0 0;
   overflow: auto;
 }
 
-#forms, #buttons, #girds,#tables {
-  margin: 5%;
-  >div{
-    margin: 3%;
-  }
-}
+

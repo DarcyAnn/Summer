@@ -28,13 +28,6 @@ pre {
   padding: 15px 0 0;
   overflow: auto; }
 
-#forms, #buttons, #girds, #tables {
-  margin: 5%; }
-  #forms > div, #buttons > div, #girds > div, #tables > div {
-    margin: 3%; }
-
-.form-default div {
-  margin: 10px 0; }
 .form-default label {
   font-weight: bold;
   display: block;
