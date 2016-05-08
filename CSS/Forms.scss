@@ -1,7 +1,6 @@
 @import "common.scss";
 
 .form-default{
-  margin: 3%;
   div{
     margin: 10px 0;
   }
@@ -22,12 +21,9 @@
   border-left-style: outset;
 }
 
-.form-basic{
-  margin:3%;
-}
+
 
 .form-aligned{
-  margin:3%;
   label{
     display: inline-block;
     text-align: right;

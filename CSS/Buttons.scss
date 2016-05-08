@@ -1,19 +1,15 @@
 @import "common.scss";
 
-.btn-scenarios, .btn-sizes{
-  margin: 3%;
-}
-
 .btn{
   font-size: 15px;
   text-align: center;
   vertical-align: middle;
   min-width: 60px;
-  border: 1px solid $border-color;
+  border: 1px solid $borderColor;
   background-color: #fff;
   padding: 8px 12px;
   border-radius: 4px;
-  box-shadow: 1px 1px 1px $border-color;
+  box-shadow: 1px 1px 1px $borderColor;
   outline: none;
   cursor: pointer;
   &:hover{

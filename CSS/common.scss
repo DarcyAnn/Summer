@@ -8,8 +8,9 @@ $warning: #f0ad4e;
 $darkWarning: #ec971f;
 $danger: #d9534f;
 $darkDanger: #c9302c;
-$border-color: #ccc;
-
+$borderColor: #ccc;
+$lightBackgroundColor: #f2f2f2;
+$darkBackgroundColor: #e0e0e0;
 html {
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -48,6 +49,9 @@ pre{
   overflow: auto;
 }
 
-#forms, #buttons, #girds {
+#forms, #buttons, #girds,#tables {
   margin: 5%;
+  >div{
+    margin: 3%;
+  }
 }

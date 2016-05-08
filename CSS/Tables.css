@@ -33,4 +33,21 @@ pre {
   #forms > div, #buttons > div, #girds > div, #tables > div {
     margin: 3%; }
 
-/*# sourceMappingURL=common.css.map */
+.table-default {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  border-spacing: 0; }
+  .table-default th, .table-default td {
+    padding: 10px 15px;
+    text-align: center;
+    vertical-align: middle; }
+  .table-default th {
+    background-color: #e0e0e0; }
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #ccc; }
+
+.table-striped tr:nth-of-type(2n) {
+  background-color: #f2f2f2; }
+
+/*# sourceMappingURL=Tables.css.map */

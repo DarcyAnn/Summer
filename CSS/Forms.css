@@ -28,17 +28,17 @@ pre {
   padding: 15px 0 0;
   overflow: auto; }
 
-#forms, #buttons, #girds {
+#forms, #buttons, #girds, #tables {
   margin: 5%; }
+  #forms > div, #buttons > div, #girds > div, #tables > div {
+    margin: 3%; }
 
-.form-default {
-  margin: 3%; }
-  .form-default div {
-    margin: 10px 0; }
-  .form-default label {
-    font-weight: bold;
-    display: block;
-    margin: 10px 0; }
+.form-default div {
+  margin: 10px 0; }
+.form-default label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0; }
 
 .default-form {
   font-size: 15px;
@@ -49,18 +49,13 @@ pre {
   border-top-style: outset;
   border-left-style: outset; }
 
-.form-basic {
-  margin: 3%; }
-
-.form-aligned {
-  margin: 3%; }
-  .form-aligned label {
-    display: inline-block;
-    text-align: right;
-    width: 10em; }
-  .form-aligned input {
-    margin: 5px 0 15px; }
-  .form-aligned button {
-    margin-left: 9.5em; }
+.form-aligned label {
+  display: inline-block;
+  text-align: right;
+  width: 10em; }
+.form-aligned input {
+  margin: 5px 0 15px; }
+.form-aligned button {
+  margin-left: 9.5em; }
 
 /*# sourceMappingURL=Forms.css.map */
