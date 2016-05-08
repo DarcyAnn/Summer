@@ -1,0 +1,12 @@
+#forms, #buttons, #girds, #tables {
+  margin: 5%;
+  > div {
+    margin: 3%;
+  }
+}
+
+.form-default {
+  div {
+    margin: 10px 0;
+  }
+}

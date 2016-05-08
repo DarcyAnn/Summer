@@ -1,0 +1,9 @@
+#forms, #buttons, #girds, #tables {
+  margin: 5%; }
+  #forms > div, #buttons > div, #girds > div, #tables > div {
+    margin: 3%; }
+
+.form-default div {
+  margin: 10px 0; }
+
+/*# sourceMappingURL=demo.css.map */
