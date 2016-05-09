@@ -1,6 +1,6 @@
-#forms, #buttons, #girds, #tables {
+#forms, #buttons, #girds, #tables, #modal {
   margin: 5%; }
-  #forms > div, #buttons > div, #girds > div, #tables > div {
+  #forms > div, #buttons > div, #girds > div, #tables > div, #modal > div {
     margin: 3%; }
 
 .form-default div {
