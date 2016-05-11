@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Modal</title>
     <link href="../CSS/Buttons.css" rel="stylesheet"/>
+    <link href="../CSS/Forms.css" rel="stylesheet" />
     <link href="../CSS/demo.css" rel="stylesheet"/>
     <link href="Modal.css" rel="stylesheet"/>
 </head>
@@ -36,9 +37,75 @@
     </div>
 
     <h3>Confirm Modal</h3>
+    <p>To quickly create an confirm modal.</p>
+    <div class="confirm-modal">
+        <button class="btn" onclick="showConfirmModal()">Alert</button>
+        <div class="confirm-outer">
+            <div class="confirm-inner">
+                <button class="close" onclick="closeConfirmModal()"><span>X</span></button>
+                <h5>我是一个Confirm模态对话框</h5>
+                <p>就想问问你，真的确定嘛？</p>
+                <button class="btn btn-info" onclick="confirmInfo()">当然！那还用说！</button>
+                <button class="btn" onclick="closeConfirmModal()">我再想想</button>
+            </div>
+        </div>
+        <pre>
+    <button class="btn" onclick="showConfirmModal()">Alert</button>
+    <div class="confirm-outer">
+        <div class="confirm-inner">
+            <button class="close" onclick="closeConfirmModal()"><span>X</span></button>
+            <h5>我是一个Confirm模态对话框</h5>
+            <p>就想问问你，真的确定嘛？</p>
+            <button class="btn btn-info" onclick="confirmInfo()">当然！那还用说！</button>
+            <button class="btn" onclick="closeConfirmModal()">我再想想</button>
+        </div>
+    </div>
+        </pre>
+    </div>
 
     <h3>Prompt Modal</h3>
-
+    <div class="prompt-modal">
+        <button class="btn" onclick="showPromptModal()">Alert</button>
+        <div class="prompt-outer">
+            <div class="prompt-inner">
+                <button class="close" onclick="closePromptModal()"><span>X</span></button>
+                <h5>我是一个Prompt模态对话框</h5>
+                <form>
+                    <div>
+                        <label for="email1">Email:</label>
+                        <input type="email" placeholder="Email" id="email1" class="default-form">
+                    </div>
+                    <div>
+                        <label for="password1">Password:</label>
+                        <input type="password" placeholder="Password" id="password1" class="default-form">
+                    </div>
+                </form>
+                <button class="btn btn-info" onclick="promptInfo()">提交！</button>
+                <button class="btn" onclick="closePromptModal()">取消</button>
+            </div>
+        </div>
+        <pre>
+    <button class="btn" onclick="showPromptModal()">Alert</button>
+    <div class="prompt-outer">
+        <div class="prompt-inner">
+            <button class="close" onclick="closePromptModal()"><span>X</span></button>
+            <h5>我是一个Prompt模态对话框</h5>
+            <form>
+                <div>
+                    <label for="email1">Email:</label>
+                    <input type="email" placeholder="Email" id="email1" class="default-form">
+                </div>
+                <div>
+                    <label for="password1">Password:</label>
+                    <input type="password" placeholder="Password" id="password1" class="default-form">
+                </div>
+            </form>
+            <button class="btn btn-info" onclick="promptInfo()">提交！</button>
+            <button class="btn" onclick="closePromptModal()">取消</button>
+        </div>
+    </div>
+        </pre>
+    </div>
 </div>
 <script src="../CSS/common.js"></script>
 <script src="Modal.js"></script>
