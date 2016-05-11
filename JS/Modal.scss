@@ -31,7 +31,7 @@
   }
 }
 
-.confirm-outer{
+.confirm-outer {
   display: none;
   background-color: rgba(0, 0, 0, 0.5);
   filter: alpha(opacity=50);
@@ -41,7 +41,7 @@
   width: 100%;
   height: 100%;
 
-  .confirm-inner{
+  .confirm-inner {
     border: 1px solid $borderColor;
     background-color: #fff;
     border-radius: 5px;
@@ -50,10 +50,10 @@
     top: 200px;
     left: 35%;
 
-    .close{
+    .close {
       border: none;
       background-color: #fff;
-      span{
+      span {
         color: darkgrey;
         font-weight: bold;
       }
@@ -72,7 +72,7 @@
   }
 }
 
-.prompt-outer{
+.prompt-outer {
   display: none;
   background-color: rgba(0, 0, 0, 0.5);
   filter: alpha(opacity=50);
@@ -82,7 +82,7 @@
   width: 100%;
   height: 100%;
 
-  .prompt-inner{
+  .prompt-inner {
     border: 1px solid $borderColor;
     background-color: #fff;
     border-radius: 5px;
@@ -91,10 +91,10 @@
     top: 200px;
     left: 35%;
 
-    .close{
+    .close {
       border: none;
       background-color: #fff;
-      span{
+      span {
         color: darkgrey;
         font-weight: bold;
       }
@@ -104,7 +104,7 @@
       margin: 20px;
     }
     form {
-      div{
+      div {
         margin: 30px 35px 20px;
       }
     }
