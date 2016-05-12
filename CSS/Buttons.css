@@ -28,6 +28,9 @@ pre {
   padding: 15px 0 0;
   overflow: auto; }
 
+li {
+  list-style: none; }
+
 .btn {
   font-size: 15px;
   text-align: center;

@@ -28,6 +28,9 @@ pre {
   padding: 15px 0 0;
   overflow: auto; }
 
+li {
+  list-style: none; }
+
 .form-default label {
   font-weight: bold;
   display: block;

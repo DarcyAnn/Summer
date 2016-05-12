@@ -1,0 +1,32 @@
+@import "../CSS/common";
+
+.basic-dropdown {
+  position: relative;
+  span {
+    margin-left: 5px;
+    margin-top: -10px;
+    display: inline-block;
+    border-top: 7px solid #000;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+  }
+
+  ul {
+    display: none;
+    border: 1px solid $borderColor;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 22px;
+    min-width: 80px;
+    background-color: #fff;
+    li {
+      line-height: 2em;
+      margin-left: -25px;
+      margin-right: 10px;
+      :hover {
+        background-color: $lightBackgroundColor;
+      }
+    }
+  }
+}

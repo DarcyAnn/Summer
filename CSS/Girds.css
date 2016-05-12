@@ -28,6 +28,9 @@ pre {
   padding: 15px 0 0;
   overflow: auto; }
 
+li {
+  list-style: none; }
+
 .rows {
   width: 90%;
   overflow: hidden; }

@@ -28,6 +28,9 @@ pre {
   padding: 15px 0 0;
   overflow: auto; }
 
+li {
+  list-style: none; }
+
 .alert-outer {
   display: none;
   background-color: rgba(0, 0, 0, 0.5);
