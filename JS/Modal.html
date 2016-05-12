@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Modal</title>
     <link href="../CSS/Buttons.css" rel="stylesheet"/>
-    <link href="../CSS/Forms.css" rel="stylesheet" />
+    <link href="../CSS/Forms.css" rel="stylesheet"/>
     <link href="../CSS/demo.css" rel="stylesheet"/>
     <link href="Modal.css" rel="stylesheet"/>
 </head>
@@ -15,60 +15,59 @@
     <h3>Alert Modal</h3>
     <p>To quickly create an alert modal.</p>
     <div class="alert-modal">
-        <button class="btn" onclick="alertToggle()">Alert</button>
+        <button class="btn alert-btn">Alert</button>
         <div class="alert-outer">
             <div class="alert-inner">
                 <h5>我是一个最简单的alert模态对话框</h5>
                 <p>你打开了我，给你推荐一首好听的歌《奇妙能力歌》</p>
-                <button class="btn btn-info" onclick="alertToggle()">(⊙o⊙)哦知道了</button>
+                <button class="btn btn-info alert-btn">(⊙o⊙)哦知道了</button>
             </div>
         </div>
         <pre>
-    <button class="btn" onclick="alertToggle()">Alert</button>
+    <button class="btn alert-btn">Alert</button>
     <div class="alert-outer">
         <div class="alert-inner">
             <h5>我是一个最简单的alert模态对话框</h5>
             <p>你打开了我，给你推荐一首好听的歌《奇妙能力歌》</p>
-            <button class="btn btn-info" onclick="alertToggle()">(⊙o⊙)哦知道了</button>
+            <button class="btn btn-info alert-btn">(⊙o⊙)哦知道了</button>
         </div>
     </div>
         </pre>
-
     </div>
 
     <h3>Confirm Modal</h3>
     <p>To quickly create an confirm modal.</p>
     <div class="confirm-modal">
-        <button class="btn" onclick="showConfirmModal()">Alert</button>
+        <button class="btn show-confirm-btn">Alert</button>
         <div class="confirm-outer">
             <div class="confirm-inner">
-                <button class="close" onclick="closeConfirmModal()"><span>X</span></button>
+                <button class="close close-confirm-btn"><span>X</span></button>
                 <h5>我是一个Confirm模态对话框</h5>
                 <p>就想问问你，真的确定嘛？</p>
-                <button class="btn btn-info" onclick="confirmInfo()">当然！那还用说！</button>
-                <button class="btn" onclick="closeConfirmModal()">我再想想</button>
+                <button class="btn btn-info confirm-btn">当然！那还用说！</button>
+                <button class="btn close-confirm-btn">我再想想</button>
             </div>
         </div>
         <pre>
-    <button class="btn" onclick="showConfirmModal()">Alert</button>
-    <div class="confirm-outer">
-        <div class="confirm-inner">
-            <button class="close" onclick="closeConfirmModal()"><span>X</span></button>
-            <h5>我是一个Confirm模态对话框</h5>
-            <p>就想问问你，真的确定嘛？</p>
-            <button class="btn btn-info" onclick="confirmInfo()">当然！那还用说！</button>
-            <button class="btn" onclick="closeConfirmModal()">我再想想</button>
-        </div>
-    </div>
+   <button class="btn show-confirm-btn">Alert</button>
+   <div class="confirm-outer">
+       <div class="confirm-inner">
+           <button class="close close-confirm-btn"><span>X</span></button>
+           <h5>我是一个Confirm模态对话框</h5>
+           <p>就想问问你，真的确定嘛？</p>
+           <button class="btn btn-info confirm-btn">当然！那还用说！</button>
+           <button class="btn close-confirm-btn">我再想想</button>
+       </div>
+   </div>
         </pre>
     </div>
 
     <h3>Prompt Modal</h3>
     <div class="prompt-modal">
-        <button class="btn" onclick="showPromptModal()">Alert</button>
+        <button class="btn show-prompt-btn" onclick="showPromptModal()">Alert</button>
         <div class="prompt-outer">
             <div class="prompt-inner">
-                <button class="close" onclick="closePromptModal()"><span>X</span></button>
+                <button class="close close-prompt-btn" onclick="closePromptModal()"><span>X</span></button>
                 <h5>我是一个Prompt模态对话框</h5>
                 <form>
                     <div>
@@ -80,8 +79,8 @@
                         <input type="password" placeholder="Password" id="password1" class="default-form">
                     </div>
                 </form>
-                <button class="btn btn-info" onclick="promptInfo()">提交！</button>
-                <button class="btn" onclick="closePromptModal()">取消</button>
+                <button class="btn btn-info prompt-btn" onclick="promptInfo()">提交</button>
+                <button class="btn close-prompt-btn" onclick="closePromptModal()">取消</button>
             </div>
         </div>
         <pre>
