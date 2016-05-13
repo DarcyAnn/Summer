@@ -18,15 +18,14 @@
     position: absolute;
     left: 0;
     top: 22px;
-    min-width: 80px;
+    min-width: 120px;
     background-color: #fff;
+    padding-left: 0;
     li {
       line-height: 2em;
-      margin-left: -25px;
-      margin-right: 10px;
-      :hover {
-        background-color: $lightBackgroundColor;
-      }
+      border-radius: 5px;
+      text-align:center;
+      width: 100%;
     }
   }
 }
