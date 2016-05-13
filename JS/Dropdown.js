@@ -2,7 +2,6 @@ var btn = document.getElementsByClassName("btn")[0];
 var dropdown = document.getElementsByClassName("basic-dropdown")[0];
 var list = dropdown.children[1];
 
-//这里算事件委托嘛？
 function showList(event) {
     list.style.display = "inline-block";
     event.target.style.backgroundColor = "#f2f2f2";
