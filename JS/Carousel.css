@@ -41,7 +41,7 @@ li {
     width: 900px;
     position: absolute;
     left: 0;
-    transition: left 0.5s; }
+    transition: left 1s; }
     .basic-carousel .carousel-outer .carousel-main div {
       position: absolute;
       top: 0; }
