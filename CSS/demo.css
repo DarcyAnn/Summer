@@ -1,6 +1,6 @@
-#forms, #buttons, #girds, #tables, #modal, #dropdown {
+#forms, #buttons, #girds, #tables, #modal, #dropdown, #carousel {
   margin: 5%; }
-  #forms > div, #buttons > div, #girds > div, #tables > div, #modal > div, #dropdown > div {
+  #forms > div, #buttons > div, #girds > div, #tables > div, #modal > div, #dropdown > div, #carousel > div {
     margin: 3%; }
 
 .form-default div {

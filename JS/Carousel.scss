@@ -1,0 +1,73 @@
+@import "../CSS/common";
+
+.basic-carousel {
+  .carousel-outer {
+    height: 351px;
+    width: 900px;;
+    position: relative;
+    overflow: hidden;
+    .carousel-main {
+      height: 351px;
+      width: 900px;
+      position: absolute;
+      left: 0;
+      transition: left 0.5s;
+      div {
+        position: absolute;
+        top: 0;
+        h2 {
+          position: absolute;
+          top: 35%;
+          left: 15%;
+          z-index: 1;
+        }
+      }
+      div:first-child {
+        z-index: 2;
+        left: 0;
+      }
+      div:nth-child(2) {
+        z-index: 2;
+        left: 100%;
+      }
+      div:nth-child(3) {
+        z-index: 2;
+        left: 200%;
+      }
+    }
+    .carousel-ctrl {
+      position: absolute;
+      left: 40%;
+      bottom: 0;
+      z-index: 11;
+      li {
+        float: left;
+        button {
+          height: 13px;
+          width: 5px;
+          border-radius: 20px;
+          border: 1px solid $borderColor;
+          margin: 0 10px;
+          background-color: #fff;
+          cursor: pointer;
+          outline: none;
+          .unhovered {
+            background-color: #fff;
+          }
+          .hovered {
+            background-color: #ccc;
+          }
+        }
+        button:hover {
+          background-color: #ccc;
+        }
+      }
+      li:first-child > button {
+        background-color: #ccc;
+      }
+    }
+  }
+  pre {
+    clear: both;
+  }
+}
