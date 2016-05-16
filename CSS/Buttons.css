@@ -40,7 +40,6 @@ li {
   background-color: #fff;
   padding: 8px 12px;
   border-radius: 4px;
-  box-shadow: 1px 1px 1px #ccc;
   outline: none;
   cursor: pointer; }
   .btn:hover {
