@@ -1,5 +1,8 @@
+*{
+  font: 14px "Microsoft YaHei";
+}
 #forms, #buttons, #girds, #tables, #modal, #dropdown, #carousel, .index-list {
-  margin: 5%;
+  margin: 5% 5% 10%;
   > div {
     margin: 3%;
   }
@@ -17,6 +20,7 @@
   }
   ul {
     margin-top: 30px;
+    padding-left: 10px;
     li {
       list-style: none;
       margin: 15px;

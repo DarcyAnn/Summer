@@ -1,4 +1,4 @@
-var btn = document.getElementsByClassName("btn")[0];
+var dropdownBtn = document.getElementsByClassName("dropdown-btn")[0];
 var dropdown = document.getElementsByClassName("basic-dropdown")[0];
 var list = dropdown.children[1];
 
@@ -12,7 +12,7 @@ function hideList() {
     event.target.style.backgroundColor = "#fff";
 }
 
-btn.addEventListener('mouseover',showList,false);
-btn.addEventListener('mouseout',hideList,false);
+dropdownBtn.addEventListener('mouseover',showList,false);
+dropdownBtn.addEventListener('mouseout',hideList,false);
 list.addEventListener('mouseover',showList,false);
 list.addEventListener('mouseout',hideList,false);

@@ -2,7 +2,7 @@
  * Created by Administrator on 2016-5-17.
  */
 var gulp = require('gulp'),
-    //sass = require('gulp-sass'),
+    sass = require('gulp-sass'),
     concat = require('gulp-concat'),
     clean = require('gulp-clean'),
     uglify = require('gulp-uglify'),
