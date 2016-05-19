@@ -36,7 +36,7 @@ li {
   text-align: center;
   vertical-align: middle;
   min-width: 60px;
-  border: 1px solid #ccc;
+  border: none;
   background-color: #fff;
   padding: 8px 12px;
   border-radius: 4px;
@@ -44,6 +44,9 @@ li {
   cursor: pointer; }
   .btn:hover {
     background-color: gainsboro; }
+
+.btn-default {
+  border: 1px solid #ccc; }
 
 .btn-primary {
   color: #fff;

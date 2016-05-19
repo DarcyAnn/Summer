@@ -74,6 +74,7 @@ li {
     top: 200px;
     left: 35%; }
     .confirm-outer .confirm-inner .close {
+      outline: none;
       border: none;
       background-color: #fff; }
       .confirm-outer .confirm-inner .close span {
