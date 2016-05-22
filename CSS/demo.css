@@ -11,6 +11,7 @@
 
 .index-list h2 {
   font-size: 26px; }
+
 .index-list ul {
   margin-top: 30px;
   padding-left: 10px; }
@@ -23,5 +24,3 @@
       transition: font-size,0.2s; }
     .index-list ul li a:hover {
       font-size: 1.5em; }
-
-/*# sourceMappingURL=demo.css.map */
