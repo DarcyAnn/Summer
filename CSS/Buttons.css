@@ -81,11 +81,10 @@ li {
 .btn-larger {
   font-size: 18px;
   min-width: 70px;
-  padding: 10px 16px; }
+  padding: 10px 16px;
+  background-color: #000000; }
 
 .btn-smaller {
   font-size: 12px;
   min-width: 50px;
   padding: 5px 10px; }
-
-/*# sourceMappingURL=Buttons.css.map */
