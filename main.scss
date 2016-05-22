@@ -55,6 +55,83 @@ li{
 
 //@import "common.scss";
 
+.btn {
+  font-size: 15px;
+  text-align: center;
+  vertical-align: middle;
+  min-width: 60px;
+  border: none;
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    background-color: gainsboro;
+  }
+}
+
+.btn-default{
+  border: 1px solid $borderColor;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $primary;
+  &:hover {
+    background-color: $darkPrimary;
+  }
+}
+
+.btn-success {
+  color: #fff;
+  background-color: $success;
+  &:hover {
+    background-color: $darkSuccess;
+  }
+}
+
+.btn-info {
+  color: #fff;
+  background-color: $info;
+  &:hover {
+    background-color: $darkInfo;
+  }
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: $warning;
+  &:hover {
+    background-color: $darkWarning;
+  }
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: $danger;
+  &:hover {
+    background-color: $darkDanger;
+  }
+}
+
+.btn-larger {
+  font-size: 18px;
+  min-width: 70px;
+  padding: 10px 16px;
+}
+
+.btn-smaller {
+  font-size: 12px;
+  min-width: 50px;
+  padding: 5px 10px;
+}
+//@import "common.scss";
+
+input{
+  outline: none;
+}
+
 .form-default {
   label {
     font-weight: bold;
@@ -64,6 +141,10 @@ li{
 }
 
 .default-form {
+  &:focus{
+    border: 2px solid rgba(164, 211, 238,0.75);
+    box-shadow: 1px 1px 4px rgba(164, 211, 238,0.75),-1px -1px 4px rgba(164, 211, 238,0.75);
+  }
   font-size: 15px;
   height: 30px;
   border-radius: 5px;
@@ -166,79 +247,6 @@ li{
   tr:nth-of-type(2n) {
     background-color: $lightBackgroundColor;
   }
-}
-//@import "common.scss";
-
-.btn {
-  font-size: 15px;
-  text-align: center;
-  vertical-align: middle;
-  min-width: 60px;
-  border: none;
-  background-color: #fff;
-  padding: 8px 12px;
-  border-radius: 4px;
-  outline: none;
-  cursor: pointer;
-  &:hover {
-    background-color: gainsboro;
-  }
-}
-
-.btn-default{
-  border: 1px solid $borderColor;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: $primary;
-  &:hover {
-    background-color: $darkPrimary;
-  }
-}
-
-.btn-success {
-  color: #fff;
-  background-color: $success;
-  &:hover {
-    background-color: $darkSuccess;
-  }
-}
-
-.btn-info {
-  color: #fff;
-  background-color: $info;
-  &:hover {
-    background-color: $darkInfo;
-  }
-}
-
-.btn-warning {
-  color: #fff;
-  background-color: $warning;
-  &:hover {
-    background-color: $darkWarning;
-  }
-}
-
-.btn-danger {
-  color: #fff;
-  background-color: $danger;
-  &:hover {
-    background-color: $darkDanger;
-  }
-}
-
-.btn-larger {
-  font-size: 18px;
-  min-width: 70px;
-  padding: 10px 16px;
-}
-
-.btn-smaller {
-  font-size: 12px;
-  min-width: 50px;
-  padding: 5px 10px;
 }
 //@import "../CSS/common.scss";
 
@@ -439,6 +447,7 @@ li{
     left: 35%;
 
     .close {
+      outline: none;
       border: none;
       background-color: #fff;
       span {
@@ -452,7 +461,10 @@ li{
     }
     form {
       div {
-        margin: 30px 35px 20px;
+        margin: 30px 10px 20px;
+      }
+      :first-child{
+        padding-left: 25px;
       }
     }
     button {

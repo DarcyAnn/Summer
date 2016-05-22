@@ -1,5 +1,9 @@
 //@import "common.scss";
 
+input{
+  outline: none;
+}
+
 .form-default {
   label {
     font-weight: bold;
@@ -9,6 +13,10 @@
 }
 
 .default-form {
+  &:focus{
+    border: 2px solid rgba(164, 211, 238,0.75);
+    box-shadow: 1px 1px 4px rgba(164, 211, 238,0.75),-1px -1px 4px rgba(164, 211, 238,0.75);
+  }
   font-size: 15px;
   height: 30px;
   border-radius: 5px;
