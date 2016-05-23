@@ -5,12 +5,16 @@
     var carouselMain = document.getElementsByClassName('carousel-main')[0];
     var carousels = document.getElementsByClassName('carousel-item');
     var ctrlItems = document.getElementsByClassName('carousel-ctrl-item');
-
+    var imgItem1 = carousels[0].firstChild;
     var moveDistance = 0;
     var timer = 0;
+    var imgWidth = parseInt(window.getComputedStyle(imgItem1).width);
 
+    window.onresize = function () {
+        imgWidth = parseInt(window.getComputedStyle(imgItem1).width);
+    }
 //鼠标移入切换
-    function changeCarousel(event) {
+    function changeCarousel() {
 
         for (var p = 0; p < ctrlItems.length; p++) {
             (function (i) {
@@ -20,7 +24,7 @@
                         ctrlItems[j].children[0].style.backgroundColor = '#fff';
                     }
                     carousels[i].style.zIndex = 10;
-                    var moveDistance = -900 * i;
+                    var moveDistance = -(imgWidth * i);
                     carouselMain.style.left = moveDistance + 'px';
                     ctrlItems[i].children[0].style.backgroundColor = '#ccc';
                     clearTimeout(timer);
@@ -66,7 +70,7 @@
             index++;
         }
         else {
-            moveDistance = -900 * index;
+            moveDistance = -(imgWidth * index);
             carouselMain.style.left = moveDistance + 'px';
             ctrlItems[index].children[0].style.backgroundColor = '#ccc';
             index++;

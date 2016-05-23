@@ -2,19 +2,21 @@
 
 .basic-carousel {
   .carousel-outer {
-    height: 351px;
-    width: 900px;;
+    height: 450px;
     position: relative;
     overflow: hidden;
     .carousel-main {
-      height: 351px;
-      width: 900px;
+      width: 100%;
       position: absolute;
       left: 0;
       transition: left 1s;
       div {
         position: absolute;
         top: 0;
+        width: 100%;
+        img{
+          width: 100%;
+        }
         h2 {
           position: absolute;
           top: 35%;
