@@ -50,7 +50,7 @@ gulp.task('stylesDev',['concatCSS'], function () {
 });
 
 gulp.task('concatJS', ['clean'], function () {
-    return gulp.src('JS/*.js')
+    return gulp.src(['JS/*.js','!JS/main.js'])
         .pipe(concat('main.js'))
         .pipe(gulp.dest('JS'));
 });
@@ -60,8 +60,9 @@ gulp.task('doStyleDev', function () {
     /* watch .sass|.scss files */
     gulp.watch('{CSS,JS}/*.scss', ['stylesDev','demoStylesDev']);
 });
-gulp.task('dev', ['doStyleDev', 'browser-sync'], function () {
-    gulp.watch(['index.html', '*.css', 'JS/*.js']).on('change', reload);
+
+gulp.task('dev', ['doStyleDev', 'browser-sync','concatJS'], function () {
+    gulp.watch(['index.html', '*.css', 'JS/*.js'],['concatJS']).on('change', reload);
 });
 
 //release
