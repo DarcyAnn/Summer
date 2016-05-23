@@ -8,7 +8,7 @@
         event.target.style.backgroundColor = '#f2f2f2';
     }
 
-    function hideList() {
+    function hideList(event) {
         list.style.display = 'none';
         event.target.style.backgroundColor = '#fff';
     }
